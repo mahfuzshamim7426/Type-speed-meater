@@ -17,7 +17,6 @@ function addHistory(questionText, timeTaken, errorCount) {
   let previousTests = JSON.parse(localStorage.getItem("testHistory")) || [];
   previousTests.push({ questionText, timeTaken, errorCount });
   localStorage.setItem("testHistory", JSON.stringify(previousTests));
-
   displayHistory();
 }
 
@@ -34,7 +33,7 @@ function displayHistory() {
   <p>You took: <span class="bold">${Math.round(test.timeTaken)}</span> seconds</p>
     <p>You made <span class="bold red">${test.errorCount}</span> mistakes</p>
   `;
-
     histories.appendChild(newRow);
   });
+
 }

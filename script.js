@@ -93,6 +93,7 @@ const gameOver = () => {
   userText = "";
   display.classList.add("inactive");
 };
+errorCount++;
 
 const closeModal = () => {
   modalBackground.classList.toggle("hidden");

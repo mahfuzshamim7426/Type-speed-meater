@@ -183,6 +183,43 @@ button {
   top: 0;
 }
 
+.blog-container {
+  text-align: center;
+
+}
+
+.blog-container a {
+  margin-top: 20px;
+  text-decoration: none;
+  color: rgb(190, 255, 252);
+  font-size: 35px;
+  font-weight: bold;
+
+}
+
+.blog-main-container {
+  margin-top: 10px;
+}
+
+.blog-content {
+  color: white;
+  text-align: center;
+}
+
+.blog-questions {
+  padding: 40px 80px;
+}
+
+.blog-questions h3 {
+  color: white;
+  margin-top: 35px;
+}
+
+.blog-questions p {
+  color: white;
+  margin-top: 5px;
+}
+
 @media only screen and (max-width: 700px) {
   .box-container {
     padding: 0 20px;

@@ -5,10 +5,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Blogs</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
+    <header>
+        <div class="blog-container">
+            <a href="/index.html">Home</a>
+        </div>
+    </header>
+    <main class="blog-main-container ">
+        <h1 class="blog-content">Here is Some Important Notes!!</h1>
+        <div>
+            <h3 class="blog-content">Quick Qusestions and Answers</h3>
+        </div>
+        <div class="blog-questions">
+            <h3>Question: 01. What is the difference between Local Storage and Session Storage?</h3>
+            <p>sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't
+                expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded in a
+                particular tab in the browser, a unique page session gets created and assigned to that particular tab.
+            </p>
+            <h3>Question: 02. What is the difference between Global scope and Block Scope?</h3>
+            <p>In a browser environment, the global scope is controlled by the window object while in Node. js, it's
+                controlled by the global object. Block scopes are what you get when you use if statements, for
+                statements, and the like.
+            </p>
+            <h3>Question: 03. How to work javaScript event loop?</h3>
+            <p>
+                The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call Stack
+                is empty, the Event Loop will take the first event from the queue and will push it to the Call Stack,
+                which effectively runs it. Such an iteration is called a tick in the Event Loop.
+            </p>
+            <h3>Question: 04. How to get different types of undefined in JavaScript?</h3>
+            <p>
+                A variable that has not been assigned a value is of type undefined . A method or statement also returns
+                undefined if the variable that is being evaluated does not have an assigned value. A function returns
+                undefined if a value was not returned .
+            </p>
+
+
+        </div>
+    </main>
 
 </body>
 

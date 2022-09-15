@@ -10,9 +10,6 @@ let userText = "";
 let errorCount = 0;
 let startTime;
 let questionText = "";
-
-// errorCount++;
-
 // Load and display question
 fetch("./texts.json")
   .then((res) => res.json())
